@@ -4,7 +4,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class apicall {
-    public static final String base_url="http://10.0.2.2/viewcontact.php/";
+    public static final String base_url="http://192.168.56.1/viewcontact.php/";
     public static Retrofit retrofit=null;
     public static Retrofit getApiClient()
     {
